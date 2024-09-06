@@ -6,25 +6,38 @@ body {
     height: 200px;
     border: 4px solid black;
     display: flex;
-    position: relative;
+    flex-direction: column;
+    
 }
-.pic {
-    width: 25%;
-    height: 100%;
+.pic-fame {
     background-color: gray;
     display: flex;
-    position: relative;
+     
 }
 .user-detail {
-    width: 75%;
+    width: 20%;
     height: 50px;
-    background-color: rgb(197, 88, 88);
+    background-color: rgb(136, 134, 134); 
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+.user-detail-2 {
+    background-color: aqua; 
+    flex: 1;
+    display: flex;
+    padding-left: 20px;
+}
+.other-detail-css {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: lightblue;
+    position: relative;
+    left: 20%;
+}
+img {
+    width: 20px;
+    height: 20px;
     
 }
-/* .user-detail-2 {
-    width: 100%;
-    height: 100%;
-    background-color: aqua;
-    position: absolute;
-    
-} */
