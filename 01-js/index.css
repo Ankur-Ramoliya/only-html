@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, arial;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-js-box {
+    width: 400px;
+    height: 200px;
+    background-color: lightgreen;
+    border-radius: 5px;
+}
+.first-js-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.first-js-box input {
+    margin-top: 20px;
+    padding: 10px;
+    font-weight: 500;
+    border-radius: 5px;
+    border: none;
+}
