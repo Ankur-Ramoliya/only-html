@@ -10,7 +10,7 @@ body {
 }
 .first-js-box {
     width: 400px;
-    height: 200px;
+    height: 250px;
     background-color: lightgreen;
     border-radius: 5px;
 }
@@ -26,4 +26,27 @@ body {
     font-weight: 500;
     border-radius: 5px;
     border: none;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+.btn-css {
+    width: 100px;
+    height: 30px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    
+}
+.btn-css:hover {
+    background-color: rgb(28, 88, 0);
+    color: white;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+     -moz-box-shadow: 0 10px 6px -6px #777;
+          box-shadow: 0 10px 6px -6px #777;
+}
+.para-element-css {
+    font-weight: 700;
+    color: rgb(28, 88, 0);
 }
