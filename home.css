@@ -1,0 +1,170 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Poppins, sans-serif, arial;
+}
+.header {
+    display: flex;
+    height: 100px;
+    background-color: #363636;
+}
+.left-side-header {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left-side-header img {
+    width: 32px;
+    cursor: pointer;
+}
+.middle-side-header { 
+    flex-grow: 2;
+}
+.right-side-header {
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg-link > a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+/* Second div for login design */
+.login-main-div {
+    width: 100%;
+    height: 700px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+}
+.login-wrapper {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.login-beside {
+    width: 600px;
+    height: 300px;
+    
+}
+.input-css {
+    display: flex;
+    flex-direction: column;
+    width: 400px;  
+}
+.input-css h3 {
+    letter-spacing: 3px;
+    font-size: 24px;
+}
+.input-css > input {
+    padding: 14px;
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 2px;
+    border: none;
+    margin-bottom: 20px;
+}
+.input-css button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(14, 132, 32);
+    border-radius: 2px;
+    border: none;
+    color: white;
+}
+.input-css button:hover {
+    background-color: rgb(8, 80, 19);
+    color: white;
+    transition: 600ms;
+}
+.input-css div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.input-css a {
+    text-decoration: none;
+    color: #363636;
+    font-size: 14px;
+}
+.input-css a:hover {
+    width: 220px;
+    height: 40px;
+    background-color: rgb(225, 253, 230);
+    border-radius: 2px;
+    border: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    color: rgb(14,132,32);
+    transition: 600ms;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #363636;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    color: white;
+    
+}
+.contact-detail {
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    
+}
+.contact-detail h3 {
+    margin: 0;
+    padding: 0;
+}
+.social-detail {
+    width: 400px;
+    height: 250px;
+    display: flex;  
+}
+.icons {
+    display: flex;
+    height: 36px;
+    width: 100%;
+    padding-bottom: 30px;
+    justify-content: space-between;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.icons img {
+    cursor: pointer;
+}
+
+/* add this line for git check */
+
+/* version 2*/
+
+/* Version3 */
+
+/* Version 1 updated */
+
+/* Version 11*/
+
+/* Version 12*/
+
+/* Version 13 */
